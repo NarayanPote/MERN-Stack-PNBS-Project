@@ -8,7 +8,6 @@ import path from "path";
 import anjali1Routes from "./routes/anjali1Routes.js";
 import anjaliRoutes from "./routes/anjaliRoutes.js";
 import bhogRoutes from "./routes/bhogRoutes.js";
-import noteRoutes from "./routes/noteRoutes.js";
 import userRoutes from "./routes/userRoutes.js";
 import { errorHandler, notFound } from "./middleware/errorMiddleware.js";
 
@@ -24,7 +23,6 @@ app.use(express.json()); // to accept json data
 app.use("/api/anjalis1", anjali1Routes);
 app.use("/api/anjalis", anjaliRoutes);
 app.use("/api/bhogs", bhogRoutes);
-app.use("/api/notes", noteRoutes);
 app.use("/api/users", userRoutes);
 
 // --------------------------deployment------------------------------
