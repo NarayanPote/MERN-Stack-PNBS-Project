@@ -30,7 +30,6 @@ Create a .env file in server directory and add the following:
 SECRET = "Your JWT secret"
 
 ## Client:
-Open client/src/backendUrl.js & change "backend" variable to "http://localhost:4000"
 
 npm install<br />
 npm start
